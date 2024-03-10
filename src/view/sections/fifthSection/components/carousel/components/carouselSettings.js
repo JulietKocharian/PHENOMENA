@@ -1,16 +1,24 @@
-import { ScrollToLeft, ScrollToRight, ScrollToTop } from "./arrows/Arrow"
+import React, { useState } from "react";
 
-export const carouselSettings = {
+import { ScrollToLeft, ScrollToRight, ScrollToTop } from "./arrows/Arrow";
+
+
+const CarouselSettings = () => {
+  const [isActive, setIsActive] = useState({ left: false, right: true });
+
+
+  const activateRight = () => { setIsActive({ left: false, right: true }) };
+
+  const activateLeft = () => { setIsActive({ left: true, right: false }) };
+
+  const carouselSettings = {
     dots: false,
     infinite: true,
-    speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
     initialSlide: 0,
-    autoplay: true,
-    autoplaySpeed: 1000,
-    nextArrow: <ScrollToRight/>,
-    prevArrow: <ScrollToLeft/>,
+    slidesToScroll: 1,
+    nextArrow: <ScrollToRight onActive={activateRight} isActive={isActive.right} />,
+    prevArrow: <ScrollToLeft onActive={activateLeft} isActive={isActive.left} />,
     responsive: [
       {
         breakpoint: 1300,
@@ -37,8 +45,8 @@ export const carouselSettings = {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
-          prevArrow: <ScrollToLeft />,
-          nextArrow: <ScrollToRight />,
+          nextArrow: <ScrollToRight onActive={activateRight} isActive={isActive.right} />,
+          prevArrow: <ScrollToLeft onActive={activateLeft} isActive={isActive.left} />,
         },
       },
       {
@@ -51,9 +59,12 @@ export const carouselSettings = {
           prevArrow: null,
           slidesToScroll: 1,
           verticalSwiping: true,
-          nextArrow: <ScrollToTop/>,
+          nextArrow: <ScrollToTop />,
         },
       },
     ],
-  };
-  
+  }
+  return { carouselSettings };
+}
+
+export default CarouselSettings;

@@ -6,15 +6,17 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 import CarouselItem from './components/carouselItem/carouselItem';
-import { carouselSettings } from './components/carouselSettings';
+import CarouselSettings from './components/carouselSettings';
 import { CAROUSELINFOS } from './components/constants';
 
 import styles from './carousel.module.css';
 
 const Carousel = () => {
-
+  
   const [currentSlideNumber, setCurrentSlideNumber] = useState(0);
 
+  const {carouselSettings} = CarouselSettings();
+  
   return (
     <div>
       <Slider {...carouselSettings}

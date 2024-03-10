@@ -150,7 +150,7 @@
   }
 
   .closeIconContainer {
-    top: -110px;
+    top: -100px;
     z-index: 21;
     display: flex;
     position: relative;
