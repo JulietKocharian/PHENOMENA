@@ -151,9 +151,6 @@ input[type="range"]::-webkit-slider-thumb {
     }
 }
 
-/* @media screen and (max-width: 768px) {
-
-}  */
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
     .line {
@@ -175,6 +172,37 @@ input[type="range"]::-webkit-slider-thumb {
 
     .input {
         width: 400px;
+    }
+    .input1 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 18%,
+                #232323 18%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input2 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 38%,
+                #232323 38%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input3 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 60%,
+                #232323 60%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input4 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 50%,
+                rgba(53, 224, 205, 0.23)100%) !important;
+    
     }
 }
 
@@ -200,6 +228,37 @@ input[type="range"]::-webkit-slider-thumb {
         padding-inline: 0px;
         justify-content: center;
     }
+    .input1 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 16%,
+                #232323 16%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input2 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 38%,
+                #232323 38%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input3 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 61%,
+                #232323 61%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input4 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 50%,
+                rgba(53, 224, 205, 0.23)100%) !important;
+    
+    }
 
 }
 
@@ -223,6 +282,38 @@ input[type="range"]::-webkit-slider-thumb {
         width: 300px;
         padding-inline: 0px;
         justify-content: center;
+    }
+
+    .input1 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 18%,
+                #232323 18%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input2 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 39%,
+                #232323 39%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input3 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 60%,
+                #232323 60%,
+                rgba(35, 35, 35, 0) 100%) !important;
+    }
+    
+    .input4 {
+        background: linear-gradient(to right,
+                rgba(53, 224, 205, 0.23) 0%,
+                rgba(53, 224, 205, 1) 50%,
+                rgba(53, 224, 205, 0.23)100%) !important;
+    
     }
 
 }
