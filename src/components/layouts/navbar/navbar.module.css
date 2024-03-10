@@ -48,7 +48,7 @@
 
 .labguageColorUncheckedMenu {
     border: none;
-    color: rgba(62, 62, 62, 0.2);
+    color: var(--gray-opacity);
 }
 
 .languageCircleCheckedWhite {

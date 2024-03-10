@@ -2,11 +2,13 @@
     /* Colors */
     --black:#232323;
     --gray:#515153;
-    --turquoise:#35E0CD;
     --yellow:#FEE823;
     --dark-gray: #4B4B4C;
     --pink: rgba(233, 77, 158, 1);
     --white: rgba(255, 255, 255, 1);
+    --turquoise: rgba(53, 224, 205, 1);
+    --gray-opacity: rgba(62, 62, 62, 0.2);
     --light-gray:  rgba(239, 239, 239, 1);
+    --light-turquoise: rgba(53, 224, 205, 0.23);
     --white-opacity: rgba(255, 255, 255, 0.2);
 }
