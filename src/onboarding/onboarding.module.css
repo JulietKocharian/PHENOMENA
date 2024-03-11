@@ -2,13 +2,21 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: center;
     background-color: var(--dark-gray);
 }
 .image {
     width: 30%;
     height: 30%;
+    position: absolute;
     animation: rotateForever1 3s linear infinite;
+}
+
+.text {
+    font-size: 20px;
+    color: var(--white);
+    font-family: 'Rubik';
 }
 
 
@@ -20,4 +28,11 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+@media screen and (max-width: 414px) {
+    .text{
+        font-size: 15px;
+    }
+    
 }
