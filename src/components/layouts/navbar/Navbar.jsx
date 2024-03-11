@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-
-// import Image from '../../images/Image';
 import Button from '../../buttons/Button';
 
 import styles from './navbar.module.css';

@@ -1,0 +1,24 @@
+.container {
+    background-color: var(--dark-gray);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    width: 30%;
+    height: 30%;
+    animation: rotateForever1 5s linear infinite;
+}
+
+
+
+@keyframes rotateForever1 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -35,7 +35,6 @@ const HeaderSection = () => {
           : '../assets/headers/headerBackground.svg'}`}
       />
       <HeaderRightAnimation />
-      {/* <PhoneButton /> */}
     </div>
   )
 }
