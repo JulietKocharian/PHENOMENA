@@ -17,10 +17,16 @@ const Navbar = () => {
     console.log(showMenu)
   }
 
+  const _scrollHidden = () => {
+    document.body.style.touchAction = 'none';
+    document.body.style.overflow = 'hidden';
+  } 
+  const _scrollShow = () => {
+    document.body.style.touchAction = 'auto';
+    document.body.style.overflowY = 'scroll';
+  }
   useEffect(() => {
-      showMenu ? document.body.style.touchAction = 'none' :
-      document.body.style.touchAction = 'auto';
-    
+      showMenu ? _scrollHidden() : _scrollShow();
   }, [showMenu]);
 
 
