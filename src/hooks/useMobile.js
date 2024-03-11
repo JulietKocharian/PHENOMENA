@@ -4,15 +4,26 @@ const useMobile = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        const resizeHandler = () => {
+        const _checkMobile = () => {
             setIsMobile(window.innerWidth <= 414);
         };
-        resizeHandler();
-        window.addEventListener('resize', resizeHandler);
+
+        const _orientationChange = () => {
+                window.location.reload(); 
+        };
+
+        _checkMobile();
+
+        window.addEventListener('resize', _checkMobile);
+        window.addEventListener('orientationchange', _orientationChange);
+
+        return () => {
+            window.removeEventListener('resize', _checkMobile);
+            window.removeEventListener('orientationchange', _orientationChange);
+        };
     }, []);
     
-    return {isMobile};
-}
-
+    return { isMobile };
+};
 
 export default useMobile;
