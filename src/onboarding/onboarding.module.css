@@ -8,10 +8,8 @@
 .image {
     width: 30%;
     height: 30%;
-    position: absolute;
     animation: rotateForever1 3s linear infinite;
 }
-
 
 
 @keyframes rotateForever1 {

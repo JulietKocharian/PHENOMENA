@@ -61,3 +61,17 @@
     }
     
 }
+@media screen and (orientation: landscape) and (max-width: 900px) {
+
+    .headerMainContainer {
+        gap: 15px;
+    }
+    }
+
+@media screen and (orientation: landscape) and (max-width: 670px) {
+
+.headerMainContainer {
+    gap: 27px;
+}
+}
+

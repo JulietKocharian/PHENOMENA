@@ -78,3 +78,10 @@
         color: var(--white);
     }
 }
+
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+    .options {
+        gap: 0;
+    }
+}
