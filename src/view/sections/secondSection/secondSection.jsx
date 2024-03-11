@@ -1,12 +1,12 @@
 import React from 'react';
 
-
 import Text from './components/text/text';
 import Title from './components/title/title';
 import AnimatedImage from './components/animatedImage/animatedImage';
 
-import styles from './secondSection.module.css';
 import useMobile from '../../../hooks/useMobile';
+
+import styles from './secondSection.module.css';
 
 
 const SecondSection = () => {

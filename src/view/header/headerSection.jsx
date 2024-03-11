@@ -3,9 +3,7 @@ import React from 'react';
 import Navbar from '../../components/layouts/navbar/Navbar'
 import HeaderMain from './components/headerMain/headerMain';
 import PhenomenaGroup from './components/phenomenaGroup/phenomenaGroup';
-import PhoneButton from '../../components/buttons/PhoneButton/PhoneButton';
 import HeaderRightAnimation from './components/headerRightAnimation/headerRightAnimation';
-
 
 import useMobile from '../../hooks/useMobile';
 

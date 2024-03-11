@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import Text from './components/text/text';
 import Title from './components/title/title';
 
-import styles from './thirdSection.module.css';
 import useMobile from '../../../hooks/useMobile';
 import AnimatedImage from '../../../components/images/AnimatedImage';
+
+import styles from './thirdSection.module.css';
 
 const ThirdSection = () => {
 

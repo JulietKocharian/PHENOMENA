@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import Text from './components/text/text';
 import Title from '../shared/title/title';
 import Numbers from './components/numbers/numbers';
