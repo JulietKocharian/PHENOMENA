@@ -62,7 +62,7 @@
 
 @media screen and (orientation: landscape) and (max-width: 900px) {
     .titleSubtitleOptions {
-        gap: 57px; 
+        gap: 0px; 
     }
     
 }
