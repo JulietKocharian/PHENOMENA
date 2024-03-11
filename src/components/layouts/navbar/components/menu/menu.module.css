@@ -5,8 +5,8 @@
   z-index: 18;
   width: 100%;
   position: fixed;
+  overflow-y: hidden !important;
   background-color: var(--white);
-  overflow-y: hidden;
   animation: expandMenu 0.5s linear forwards;
 }
 
