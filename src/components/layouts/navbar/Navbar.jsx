@@ -20,8 +20,8 @@ const Navbar = () => {
   }
 
   useEffect(() => {
-      showMenu ? document.body.style.overflowY = 'hidden' :
-      document.body.style.overflowY = 'scroll';
+      showMenu ? document.body.style.touchAction = 'none' :
+      document.body.style.touchAction = 'auto';
     
   }, [showMenu]);
 
