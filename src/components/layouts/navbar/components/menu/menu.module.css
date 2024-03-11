@@ -161,3 +161,12 @@
     z-index: 20;
   }
 } 
+
+
+@media screen and (orientation: landscape) and (max-width: 940px) {
+  .menuTexts{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+}

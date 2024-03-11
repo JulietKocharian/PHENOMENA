@@ -64,6 +64,6 @@
 @media screen and (orientation: landscape) and (max-width: 940px) {
 
     .mainContainer {
-        padding-top: 700px;
+        padding-top: 450px;
     }
 }

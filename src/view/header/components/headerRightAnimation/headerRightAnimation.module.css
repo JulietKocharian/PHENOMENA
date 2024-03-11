@@ -22,7 +22,7 @@
     }
   }
 
-  @media screen and (orientation: landscape) and (max-width: 900px) {
+  @media screen and (orientation: landscape) and (max-width: 1070000px) {
     .headerRightAnimation {
         height: 100%;
     }
