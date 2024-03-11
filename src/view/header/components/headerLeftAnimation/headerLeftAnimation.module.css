@@ -75,3 +75,9 @@
         position: absolute;
     }
 }
+
+@media screen and (orientation: landscape)and (max-width: 800px)and (max-width: 940px){
+    .headerLeftAnimation1, .headerLeftAnimation2{
+        top: -220px;
+    }
+}
