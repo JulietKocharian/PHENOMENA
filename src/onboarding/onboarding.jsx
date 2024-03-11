@@ -8,6 +8,7 @@ const Onboarding = () => {
 
   return (
    <div className={styles.container}>
+    <h1>PHENOMENA</h1>
     <img src='../assets/headers/animation/headerLeftAnimation1.svg' alt='onboardingImg' className={styles.image}/>
    </div>
   )
