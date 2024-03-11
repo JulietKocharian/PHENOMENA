@@ -4,7 +4,7 @@ import styles from './phoneButton.module.css';
 
 const PhoneButton = () => {
   const _phoneClick = () => {
-    const phoneNumber = '+37493234061';
+    const phoneNumber = '+37493234***';
     window.open(`tel:${phoneNumber}`, '_self');
   };
   return (
