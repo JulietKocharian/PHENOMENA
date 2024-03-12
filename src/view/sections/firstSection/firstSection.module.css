@@ -13,7 +13,35 @@
     align-items: center;
     flex-direction: column;
 }
+@media screen and (max-width: 1024px) {
+    .container {
+        gap: 10px;
+        padding-top: 100px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding-top: 200px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .container {
+        gap: 100px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 1370px) {
+    .container {
+        gap: 60px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+    .container{ 
+        gap: 150px;
+        padding-top: 200px;
+    }
 
+}
 @media screen and (orientation: landscape) and (max-width: 940px) {
 
     .container {
