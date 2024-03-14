@@ -69,7 +69,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1149px) {
     .mainContainer {
-        /* padding-top: 700px; */
+        padding-top: 250px;
     }
     .background {
         top: 150px;
@@ -117,7 +117,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 768px) {
     .mainContainer {
-        padding-top: 150px;
+        padding-top: 200px;
     }
 }
 
