@@ -1,6 +1,6 @@
 .mainContainer {
     position: relative;
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 .titleTextContainer {
@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
 .backgroundImageMobile {
     width: 100%;
     top: -100px;
@@ -17,58 +18,180 @@
     position: absolute;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+.background {
+    width: 100vw;
+    z-index: -1;
+    display: none;
+    position: absolute;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1149px) and (min-height: 768px) {
     .mainContainer {
         padding-top: 350px;
     }
-    .titleTextContainer {
-        padding-inline: 0px;
-        align-items: center;
-    }
-    
 }
-@media screen  and (max-width: 1024px){
+
+
+@media only screen and (max-width: 820px) and (min-height: 1180px) {
+    .mainContainer {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1149px) and (min-height: 1366px) {
     .mainContainer {
         padding-top: 150px;
     }
-    
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
-    .mainContainer{
-        padding-top: 350px;
+
+@media screen and (min-width: 1149px) and (max-width: 1366px) and (min-height: 800px) {
+    .mainContainer {
+        /* padding-top: 500px; */
     }
 }
-/* @media screen and (max-width: 912px) {
+
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
     .mainContainer {
-        padding-top: 100px;
+        padding-top: 350px;
     }
-    
-} */
-@media screen and (min-width: 414px) and (max-width: 768px) {
-    .mainContainer{
-        padding-top: 400px;
+    .background {
+        display: block;
     }
+}
+@media screen and (min-width: 1149px) and (max-width: 1439px) {
+    .background {
+        top: 120px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1149px) {
+    .mainContainer {
+        /* padding-top: 700px; */
+    }
+    .background {
+        top: 150px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1024px) {
+    .mainContainer {
+        padding-top: 150px;
+    }
+
+    .titleTextContainer {
+        gap: 10px;
+    }
+
+    .background {
+        top: 60px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px) {
+    .mainContainer {
+        padding-top: 200px;
+    }
+
+    .titleTextContainer {
+        gap: 0px;
+    }
+
+    .background {
+        top: 90px;
+        display: block;
+
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 920px) and (max-height: 414px) {
+    .mainContainer {
+        padding-top: 200px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 768px) {
+    .mainContainer {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) {
+    .mainContainer {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) and (min-height: 700px) {
+    .mainContainer {
+        padding-top: 700px;
+    }
+
     .titleTextContainer {
         padding-inline: 0px;
     }
-    
+
 }
-@media screen and (max-width: 540px) {
+
+
+@media screen and (max-width: 440px) and (min-height: 932px) {
     .mainContainer {
-        padding-top: 500px;
+        padding-top: 250px;
+    }
+
+    .titleTextContainer {
+        padding-inline: 0;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .mainContainer {
+        padding-top: 40%;
+    }
+
+    .titleTextContainer {
+        padding-inline: 0;
+    }
+
+}
+
+@media screen and (min-width: 430px) and (max-width: 600px) {
+    .mainContainer {
+        padding-top: 45%;
+    }
+
+    .titleTextContainer {
+        padding-inline: 0;
     }
 }
+
+@media screen and (min-width: 414px) and (max-width: 430px) {
+    .mainContainer {
+        padding-top: 100px;
+    }
+
+    .titleTextContainer {
+        padding-inline: 0;
+    }
+}
+
 @media screen and (max-width: 414px) {
     .mainContainer {
         padding-top: 100px;
     }
+
     .titleTextContainer {
         width: 96%;
         padding-inline: 0px;
         align-items: center;
     }
-    
+
 }
 
 @media screen and (max-width: 360px) {
@@ -77,21 +200,9 @@
     }
 }
 
-@media screen and (orientation: landscape) and (max-width: 1180px) {
-    .mainContainer {
-        padding-top: 600px;
-    }
-}
 
-@media screen and (orientation: landscape) and (max-width: 1024px) {
+@media screen and (orientation: landscape) and (max-width: 844px) and (max-height: 390px) {
     .mainContainer {
-        padding-top: 400px;
-    }
-}
-
-@media screen and (orientation: landscape) and (max-width: 940px) {
-
-    .mainContainer {
-        padding-top: 550px;
+        padding-top: 200px;
     }
 }

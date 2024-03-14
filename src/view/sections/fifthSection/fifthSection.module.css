@@ -20,10 +20,30 @@
     }
     
 }
-
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 740px) and (max-width: 768px) {
     .mainContainer {
-        top: 200px;
+        top: 900px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 740px) {
+    .mainContainer {
+        top: 800px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .mainContainer {
+        top: 550px;
+    }
+}
+@media screen and (min-width: 430px) and (max-width: 500px) {
+    .mainContainer {
+        top: 500px;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 430px) {
+    .mainContainer {
+        top: 300px;
     }
     
 }

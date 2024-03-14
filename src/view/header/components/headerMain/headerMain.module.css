@@ -59,10 +59,11 @@
     }
 
 }
-
-@media screen and (orientation: landscape) and (max-width: 900px) {
-    .titleSubtitleOptions {
-        gap: 0px; 
+@media screen and (orientation: landscape) and (max-width: 900px) and (max-height: 390px){
+    .titleSubtitle {
+        gap: 50px;
     }
-    
+    .titleSubtitleOptions {
+        gap: 10px;
+    }
 }

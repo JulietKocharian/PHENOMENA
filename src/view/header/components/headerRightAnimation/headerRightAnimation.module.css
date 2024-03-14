@@ -1,6 +1,6 @@
 .headerRightAnimation {
-    top: -10px;
     right: 0;
+    top: -10px;
     position: absolute;
 }
 .headerRightAnimationMobile{
@@ -8,13 +8,16 @@
 }
 
 
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .headerRightAnimation {
+        height: 100%;
+    }
+}
 @media only screen and (max-width: 768px) {
     .headerRightAnimationMobile{
         top: 0;
         right: 0;
         display: flex;
-        /* width: 311px; */
         position: absolute;
     }
     .headerRightAnimation {
@@ -22,8 +25,8 @@
     }
   }
 
-  @media screen and (orientation: landscape) and (max-width: 1070000px) {
+  /* @media screen and (orientation: landscape) and (max-width: 1070px) {
     .headerRightAnimation {
         height: 100%;
     }
-}
+} */

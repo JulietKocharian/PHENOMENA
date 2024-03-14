@@ -47,75 +47,124 @@
         transform: rotate(360deg);
     }
 }
+
 /* 
  */
 
- @media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .mainContainer {
         padding-top: 200px;
     }
+
     .titleTextContainer {
         padding-left: 0;
         padding-right: 0;
         padding-inline: 0px;
         align-items: center;
     }
+
     .image {
         width: 50%;
     }
-    
+
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .mainContainer{
+    .mainContainer {
         padding-top: 170px;
     }
+
     .image {
-        width: 55%;
+        top: 10%;
+        width: 35%;
     }
+
     .titleTextContainer {
         padding-left: 0;
     }
 }
 
 @media screen and (min-width: 560px) and (max-width: 768px) {
-    .mainContainer{
+    .mainContainer {
         padding-top: 250px;
     }
+
     .titleTextContainer {
         gap: 10px;
         padding-inline: 0px;
     }
+
     .image {
         top: 88px;
         width: 45%;
     }
-    
+
 }
+
 @media screen and (min-width: 450px) and (max-width: 560px) {
     .mainContainer {
         padding-top: 200px;
     }
+
     .image {
         top: 100px;
         width: 40%;
     }
+
     .titleTextContainer {
         padding-inline: 0px;
     }
-    
+
 }
-@media screen and (min-width: 414px) and (max-width: 450px) {
+@media screen and (min-width: 500px) and (max-width: 768px) {
     .mainContainer {
-        padding-top: 180px;
+        padding-top: 550px;
     }
+    .imageMobile {
+        top: 1000px;
+        width: 40%;
+        height: 40%;
+        left: 20%;
+    }
+}
+@media screen and (min-width: 430px) and (max-width: 500px) {
+    .mainContainer {
+        padding-top: 450px;
+    }
+
     .image {
         top: 100px;
         width: 40%;
     }
+
     .titleTextContainer {
         padding-inline: 0px;
     }
-    
+    .imageMobile {
+        left: 10%;
+        width: 40%;
+        height: 40%;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 430px) {
+    .mainContainer {
+        padding-top: 450px;
+    }
+
+    .image {
+        top: 100px;
+        width: 40%;
+    }
+
+    .titleTextContainer {
+        padding-inline: 0px;
+    }
+    .imageMobile {
+        left: 10%;
+        width: 40%;
+        height: 40%;
+    }
+
 }
 
 
@@ -123,11 +172,13 @@
     .mainContainer {
         padding-top: 500px;
     }
+
     .titleTextContainer {
         width: 96%;
         padding-inline: 0px;
         align-items: center;
     }
+
     .imageMobile {
         top: 65%;
         right: 20%;
@@ -135,16 +186,26 @@
         height: 20%;
 
     }
-    
+
 }
 
 @media screen and (max-width: 360px) {
     .mainContainer {
         padding-top: 400px;
     }
+
     .imageMobile {
         top: 65%;
         width: 60%;
         height: 20%;
     }
 }
+
+
+/* @media screen and (orientation: landscape) and (max-width: 1370px) {
+    .image {
+        top: 10%;
+        width: 35%;
+    }
+
+} */

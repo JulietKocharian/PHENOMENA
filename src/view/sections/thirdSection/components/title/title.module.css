@@ -98,7 +98,16 @@
         padding-inline-end: 20px;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        width: 600px;
+    }
+    .title {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 600px) {
     .container {
         gap: 10px;
         width: auto;

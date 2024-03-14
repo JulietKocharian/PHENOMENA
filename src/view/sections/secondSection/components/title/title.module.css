@@ -16,13 +16,29 @@
     color: var(--turquoise);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 920px) and (max-width: 1024px) {
     .container {
         gap: 14px;
         width: auto;
+        padding-left: 14%;
     }
 }
-@media screen and (min-width: 414px) and (max-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+    .container {
+        width: auto;
+        padding-left: 10%;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .container {
+        width: 600px;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 600px) {
     .container {
         gap: 10px;
         width: auto;

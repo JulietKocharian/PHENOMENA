@@ -6,6 +6,8 @@ import AnimatedImage from './components/animatedImage/animatedImage';
 
 import useMobile from '../../../hooks/useMobile';
 
+import BackgrounImage from '../fourthSection/components/backgroundImage/backgrounImage';
+
 import styles from './secondSection.module.css';
 
 
@@ -25,6 +27,7 @@ const SecondSection = () => {
           className={styles.backgroundImageMobile}
           src='../assets/sections/secondSection/backgroundMobile.svg'
         />}
+      <img src='../assets/sections/fourthSection/background.svg' alt='background' className={styles.background}/>
     </section>
   )
 }
